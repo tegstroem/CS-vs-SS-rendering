@@ -19,82 +19,84 @@ body {
 }
 
 header {
-    text-align: center;
-    padding: 1em;
+  text-align: center;
+  padding: 1em;
 }
 
 h1 {
-    font-family:'Courier New', Courier, monospace;
-    font-weight: 600;
-    font-size: 2em;
-    color: white;
-    padding: 1em;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size: 2em;
+  color: white;
+  padding: 1em;
 }
 
 
 h2 {
-    font-family:'Courier New', Courier, monospace;
-    font-weight: 400;
-    font-size: 1em;
-    color: white;
-    padding: 0.5em;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  padding: 0.5em;
 }
 
 h3 {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 600;
-    color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  color: white;
+  text-align: center;
 }
 
-h4,
+
+h4 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
+
 p  {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 200;
-    color: white;
-
-}
-
-h5 {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 600;
-    font-size: 1em;
-    color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 200;
+  color: white;
+  text-align: center;
 
 }
 
 ul {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 200;
-    color: white;
-    list-style-position: inside;
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 200;
+  color: white;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  margin: 0 !important;
+  padding: 0 !important;
 }
+
 
 li {
 align-items: left;
 }
 
 .container {
-    display: flex;
-    margin: 2em 1em 2em;
-    gap: 2em;
+  display: flex;
+  margin: 2em 1em 2em;
+  gap: 2em;
 }
 
 .card {
-    padding:2em;
-    background: rgba(255, 255, 255, 0.33);
-    border-radius: 16px;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  padding:2em;
+  background: rgba(255, 255, 255, 0.33);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .card:hover {
@@ -108,31 +110,31 @@ footer {
 
 @media (max-width: 768px) {
   
-    body {
-    background-color: rgb(238, 187, 140);
-    background: linear-gradient(-45deg,#092d0c,#52014b, #041139,#004445, #014f27, #2d001a);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    height:fit-content;
-    }
-
-    .container {
-        flex-direction: column;
-        gap: 1em;
-        margin: 1em;
-    }
-
-    .card {
-      margin-bottom: 2em;
-    }
-
-    h1 {
-        font-size: 1.5em;
-    }
-
-    h2 {
-        font-size: 0.9em;
-    }
+  body {
+  background-color: rgb(238, 187, 140);
+  background: linear-gradient(-45deg,#092d0c,#52014b, #041139,#004445, #014f27, #2d001a);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height:fit-content;
   }
+
+  .container {
+    flex-direction: column;
+    gap: 1em;
+    margin: 1em;
+  }
+
+  .card {
+    margin-bottom: 2em;
+  }
+
+  h1 {
+      font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 0.9em;
+}
+}
 
 

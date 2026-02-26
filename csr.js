@@ -1,4 +1,3 @@
-
 /* TEXT DATA*/
 
 const data = {
@@ -54,19 +53,19 @@ function renderApp() {
         <section class="container">
             ${data.cards.map(card => `
                 <section class="card">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#FFFFFF">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="http://www.w3.org/2000/svg" width="48px" fill="#FFFFFF">
                         <path d="${card.icon}"/>
                     </svg>
                     <h3>${card.title}</h3>
                     <p>${card.description}</p>
                     
+                    <h4>Advantages:</h4>
                     <ul>
-                        <h5>Advantages:</h5>
                         ${card.advantages.map(adv => `<li>${adv}</li>`).join('')}
                     </ul>
                     
+                    <h4>Disadvantages:</h4>
                     <ul>
-                        <h5>Disadvantages:</h5>
                         ${card.disadvantages.map(dis => `<li>${dis}</li>`).join('')}
                     </ul>
                 </section>
