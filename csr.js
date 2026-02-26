@@ -73,7 +73,7 @@ function renderApp() {
         </section>
         
         <footer>
-        <p>${data.footer}</p>
+        <h5>${data.footer}</h5>
         </footer>
     `;
 }
