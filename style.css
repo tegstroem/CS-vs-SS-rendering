@@ -3,7 +3,7 @@ body {
   background: linear-gradient(-45deg,#092d0c,#52014b, #041139,#004445, #014f27, #2d001a);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
-  height:auto;
+  height: auto;
 }
 
 @keyframes gradient {
@@ -19,84 +19,104 @@ body {
 }
 
 header {
-    text-align: center;
-    padding: 1em;
+  text-align: center;
+  padding: 1em;
 }
 
 h1 {
-    font-family:'Courier New', Courier, monospace;
-    font-weight: 600;
-    font-size: 2em;
-    color: white;
-    padding: 1em;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size: 2em;
+  color: white;
+  padding: 1em;
 }
 
 
 h2 {
-    font-family:'Courier New', Courier, monospace;
-    font-weight: 400;
-    font-size: 1em;
-    color: white;
-    padding: 0.5em;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  padding: 0.5em;
 }
 
 h3 {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 600;
-    color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  color: white;
+  text-align: center;
 }
 
-h4,
-p  {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 200;
-    color: white;
 
+h4 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size: 1em;
+  color: white;
+  text-align: left;
 }
 
 h5 {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 600;
-    font-size: 1em;
-    color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+
+p  {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 200;
+  color: white;
+  text-align: justify;
 
 }
 
 ul {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 200;
-    color: white;
-    list-style-position: inside;
-    display: flex;
-    flex-direction: column;
-
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 200;
+  color: white;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  margin: 0 !important;
+  padding: 0 !important;
 }
+
 
 li {
 align-items: left;
 }
 
+svg {
+  align-self: center;
+}
+
 .container {
-    display: flex;
-    margin: 2em 1em 2em;
-    gap: 2em;
+  display: flex;
+  margin: 2em 1em 2em;
+  gap: 2em;
 }
 
 .card {
-    padding:2em;
-    background: rgba(255, 255, 255, 0.33);
-    border-radius: 16px;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  padding:2em;
+  background: rgba(255, 255, 255, 0.33);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .card:hover {
   box-shadow: 11px 11px 22px 0 rgba(0,0,0,0.2);
+}
+
+footer {
+  align-items: center;
+  padding: 1em;
 }
 
 @media (max-width: 768px) {
@@ -110,9 +130,9 @@ align-items: left;
     }
 
     .container {
-        flex-direction: column;
-        gap: 1em;
-        margin: 1em;
+      flex-direction: column;
+      gap: 1em;
+      margin: 1em;
     }
 
     .card {
@@ -124,8 +144,8 @@ align-items: left;
     }
 
     h2 {
-        font-size: 0.9em;
-    }
+      font-size: 0.9em;
   }
+}
 
 
